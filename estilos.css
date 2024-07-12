@@ -1,0 +1,46 @@
+
+
+
+body
+{
+    background: #0C0B0B;
+}
+
+
+nav {
+    background-color: #1a1919; /* Color de fondo de la barra de navegación */
+    overflow: hidden; /* Asegura que el contenido se mantenga dentro del contenedor */
+    height: 200px;
+}
+
+nav img {
+    width: 60px;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.nav{
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se dispongan en fila */
+    justify-content: right; /* Centra los elementos de la lista */
+    padding-right: 10%;
+}
+
+
+/* Estilo de los enlaces dentro de los elementos de la lista */
+.nav li a {
+    display: block;
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 14px 20px; /* Espaciado dentro de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+   
+}
+
+/* Efecto de hover para los enlaces */
+.nav li a:hover {
+    background-color: #575757; /* Color de fondo al pasar el mouse por encima */
+    color: white; /* Color del texto al pasar el mouse por encima */
+}
