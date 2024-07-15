@@ -28,6 +28,9 @@ body {
     padding: 0 10%;
 }
 
+.logo-menu{
+    display: none;
+}
 .navbar ul {
     margin: 0;
     padding: 0;
@@ -345,3 +348,87 @@ body {
     padding-left: 20px;
 }
 
+/*RESPONSIVE DESIGN*/
+
+@media (max-width: 450px) {
+    /* Estilos para teléfonos pequeños */
+    .navbar {
+        width: 90%;
+    }
+
+    .navbar li {
+        display: none;
+    }
+
+    .logo-menu {
+        display: block;
+        background-color: #0C0B0B;
+    }
+    .section-1{
+        height: 500px;
+
+    }
+    .signup {
+        margin-top: 40px;
+    }
+    .parallax {
+       background-color: #0C0B0B;
+       height: 0px;
+    }
+
+    .barra-subtitulo {
+        height: 115px;
+    }
+
+    #crear-blog-home {
+        margin-top: 25px;
+    }
+
+    .contenido-section-2{
+        display: block;
+    }
+
+    .content-description {
+        width: 100%;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    .content-description h3 {
+        font-weight: 500;
+        color: #f8a359;
+    }
+
+    .content-description-2{
+        width: 350px;
+    }
+    .box {
+        width: 800px;
+        flex: 0 1 calc(100% - 10px); /* Dos cajitas por fila */
+
+    }
+
+    .content-form {
+        width: 95%;
+    }
+
+    .seccion-1 {
+        width: 100%;
+    }
+
+    .seccion-1 h3 {
+        margin-left: 10px;
+    }
+    .box-footer {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Estilos para teléfonos medianos a grandes */
+}
+
+@media (max-width: 1024px) {
+    /* Estilos para tablets y dispositivos pequeños de escritorio */
+}
