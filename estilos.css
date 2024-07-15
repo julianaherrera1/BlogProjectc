@@ -419,6 +419,12 @@ body {
     .seccion-1 h3 {
         margin-left: 10px;
     }
+
+    .boton-formulario-preguntas{
+        height: 50px;
+        margin-left: 45px;
+        color: #0C0B0B;
+    }
     .box-footer {
         width: 90%;
         margin-left: 20px;
