@@ -448,6 +448,38 @@ body {
     height: 100%;
 }
 
+/*ESTILOS PAGINA INICIO SESION*/
+#formulario-inicio-sesion {
+    background-color: #000000;
+    opacity: 50%;
+    width: 75%;
+    margin-left: 160px;
+    padding-left: 20px;
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 300;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px black;
+    margin-bottom: 20px;
+}
+.parte-texto {
+    padding-top: 15px;
+    width: 1010px;
+}
+
+.parte-imagen-inicio{
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+.parte-imagen-inicio img {
+    width: 500px;
+    height: 100%;
+   
+}
+
+
 /*RESPONSIVE DESIGN*/
 
 @media (max-width: 450px) {
