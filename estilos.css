@@ -529,6 +529,21 @@ body {
         width: 90%;
         margin-left: 20px;
     }
+
+    /*ESTILOS RESPONSIVE PAGINA REGISTRO*/
+
+    #formulario-registro {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 80%;
+    }
+
+    .parte-imagen {
+        display: none;
+    }
+    .parte-imagen img {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
