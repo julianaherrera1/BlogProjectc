@@ -576,6 +576,17 @@ body {
     .parte-imagen img {
         display: none;
     }
+
+    /*ESTILOS RESPONSIVE PAGINA INICIO SESION*/
+    #formulario-inicio-sesion{
+        width: 80%;
+        height: 600px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .parte-imagen-inicio{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
