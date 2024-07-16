@@ -7,6 +7,7 @@ body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .navbar {
@@ -26,6 +27,22 @@ body {
 .navbar img {
     width: 50px;
     padding: 0 10%;
+}
+
+#fondo-pagina-registro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .logo-menu{
@@ -88,6 +105,13 @@ body {
     font-size: 50px;
     color: #FFFFFF;
     font-weight: 400;
+}
+
+#titulo-home-registro {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-left: 800px;
 }
 
 #descripcion {
@@ -347,6 +371,67 @@ body {
     display: flex;
     padding-left: 20px;
 }
+
+#section-registro {
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+    background-color: #696969;
+    width: 70%;
+    height: 1000px;
+}
+
+.parte-texto {
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-top: 90px;
+    
+}
+
+.subtitulo-registro {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.link-inicia-sesion{
+    font-weight: 300;
+    color: #FFA844;
+}
+
+.parte-texto h3 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto flex", sans-serif;
+    display: block;
+}
+
+.input-formulario-registro {
+    background-color: #252525;
+    color: #676665;
+    width: 300px;
+    border: 1px solid #262626;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.linea-form-registro {
+    display: block;
+    width: 20%;
+}
+
+.boton-registro {
+    width: 100px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#registro-con-correo {
+    margin-top: 20px;
+}
+
 
 /*RESPONSIVE DESIGN*/
 
