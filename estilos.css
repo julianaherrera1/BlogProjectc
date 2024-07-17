@@ -69,7 +69,7 @@ body {
 }
 
 .parallax {
-    background-image: url(images/red-orange-background-with-dark-orange-background.jpg);
+    background-image: url(https://i.imgur.com/bERT4Hx.jpg);
     opacity: 99%;
     height: 500px;
     background-attachment: fixed;
@@ -360,7 +360,7 @@ body {
 /*ESTILOS PAGINA REGISTRO*/
 
 .fondo-registro{
-    background-image: url(images/red-orange-background-with-dark-orange-background.jpg);
+    background-image: url();
     margin-top: 30px;
 }
 
